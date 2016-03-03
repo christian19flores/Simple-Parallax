@@ -58,3 +58,9 @@ Most important thing here is the **Display** Properties. SP does work with other
 
 ##Things to keep in mind:
 The **data-plax-y** can be any number except **zero** and the closer the number is to zero the more the element will parallax.
+
+##Features:
+1. As many parallax elements as you like.
+2. Lightweight at only 1KB!
+3. Parallax on scroll.
+4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
