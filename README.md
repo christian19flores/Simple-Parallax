@@ -64,3 +64,6 @@ The **data-plax-y** can be any number except **zero** and the closer the number 
 2. Lightweight at only 1KB!
 3. Parallax on scroll.
 4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
+
+##Example:
+<script async src="//jsfiddle.net/Kree/fv3v6vz6/2/embed/result/"></script>
