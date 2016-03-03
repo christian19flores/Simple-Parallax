@@ -66,4 +66,4 @@ The **data-plax-y** can be any number except **zero** and the closer the number 
 4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
 
 ##Example(JSFiddle):
-[Parallax V: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
+[Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
