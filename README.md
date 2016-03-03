@@ -57,4 +57,4 @@ Simpley add the **TKP** class and **data-plax-y="#"** data entry to any element,
 Most important thing here is the **Display** Properties. SP does work with other display styles but works best with tables.
 
 ##Things to keep in mind:
-The **data-plax-Y-** can be any number except 0 and the closer the number is to zero the more the element will parallax.
+The **data-plax-y** can be any number except 0 and the closer the number is to zero the more the element will parallax.
