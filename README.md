@@ -1,5 +1,5 @@
 # SP - Simple Parallax
-Simple parallax with no hassle
+Parallax without the hassle
 
 ##Usage
 ####HTML:
