@@ -68,4 +68,5 @@ Most important thing here is the **Display** Properties. SP does work with other
 
 ##Example(JSFiddle):
 [Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
+
 [Parallax Version: 0.0.2](https://jsfiddle.net/Kree/v10yn98c/)
