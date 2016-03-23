@@ -2,6 +2,7 @@
 Parallax without the hassle
 
 ##Usage
+
 ####HTML:
 ```html
 <hmtl> 
@@ -24,12 +25,27 @@ Parallax without the hassle
   <div class="container"></div>
   
       <!-- attach script at the end to ensure the page has loaded -->
-      <script src="simpleparallax.js"></script>
+      <script src="simpleparallax.min.js"></script>
         
 </body>
 </html>
 ```
 Simpley add the **SP** class and **data-plax-y="#"** data entry to any element, then link the script before the ending body tag.
+
+####Javascript - instantiation
+After adding the **simpleparallax.min.js** file to your project you must instatiate the script by doing the following
+
+```javascript
+var simpleparallax = new SP({
+  options: [
+    {
+      animation: true,
+      easeFunction: "linear"
+    }
+  ]
+});
+```
+
 ####CSS:
 
 ```css
@@ -54,17 +70,19 @@ Simpley add the **SP** class and **data-plax-y="#"** data entry to any element, 
 }
 ```
 
-Most important thing here is the **Display** Properties. SP does work with other display styles but works best with tables.
+Most important thing here is the **Display** Properties. Although SP does work with other display styles but can become tricky in some situations.
 
 ##Things to keep in mind:
 * The **data-plax-y** can be any number except **zero** and the closer the number is to zero the more the element will parallax.
-* The selected elements can not have a predefined translation.
+* The selected elements can not have a predefined translation. Otherwise it will jump to the newly defined position.
 
 ##Features:
 1. As many parallax elements as you like.
 2. Lightweight at only 2.63KB!
 3. Parallax on scroll.
 4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
+5. Animation for a smooth scroll effect.
+6. Coming Soon!(Ease functions)
 
 ##Example(JSFiddle):
 [Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
