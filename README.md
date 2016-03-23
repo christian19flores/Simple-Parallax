@@ -12,13 +12,13 @@ Parallax without the hassle
   <div class="container"></div>
     <div class="container">
     
-        <!-- use the TKP class to taget the element and the data-plax-y to define the amount of parallax -->
-        <h1 class="sample TKP" data-plax-y="20">This will PARALLAX</h1>
+        <!-- use the SP class to taget the element and the data-plax-y to define the amount of parallax -->
+        <h1 class="sample SP" data-plax-y="20">This will PARALLAX</h1>
         
     </div>
   <div class="container"></div>
     <div class="container">
-        <h1 class="sample TKP" data-plax-y="40">This will also PARALLAX less</h1>
+        <h1 class="sample SP" data-plax-y="40">This will also PARALLAX less</h1>
     </div>
     
   <div class="container"></div>
@@ -29,7 +29,7 @@ Parallax without the hassle
 </body>
 </html>
 ```
-Simpley add the **TKP** class and **data-plax-y="#"** data entry to any element, then link the script before the ending body tag.
+Simpley add the **SP** class and **data-plax-y="#"** data entry to any element, then link the script before the ending body tag.
 ####CSS:
 
 ```css
@@ -62,9 +62,10 @@ Most important thing here is the **Display** Properties. SP does work with other
 
 ##Features:
 1. As many parallax elements as you like.
-2. Lightweight at only 1KB!
+2. Lightweight at only 2.63KB!
 3. Parallax on scroll.
 4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
 
 ##Example(JSFiddle):
 [Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
+[Parallax Version: 0.0.2}(https://jsfiddle.net/Kree/v10yn98c/)
