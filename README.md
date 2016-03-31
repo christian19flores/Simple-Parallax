@@ -79,31 +79,38 @@ Can add default values for all parallax's and rotations. Also change the class n
 ```
 
 Most important thing here is the **Display** Properties. Although SP does work with other display styles but can become tricky in some situations.
-##Data-Attribute Options:
-<dl>
-  <dt>data-plax-X:</dt>
-  <dd>move left to right</dd>
-  <dt>data-plax-Y:</dt> 
-  <dd>move top to bottom</dd>
-  <dt>data-plax-Z:</dt> 
-  <dd>move front to back</dd>
-  
-  <dt>data-rotate-X:</dt> 
-  <dd>flip horizontally</dd>
-  
-  <dt>data-rotate-Y:</dt> 
-  <dd>flip vertically</dd>
-  
-  <dt>data-rotate-Z:</dt> 
-  <dd>spin</dd>
-  
-  <dt>data-TI:</dt> 
-  <dd>amount of iterations for animation</dd>
-</dl>
+
+| Ease Options   | Data Options                                    |
+| -------------- | ----------------------------------------------- |
+| linearEase     | **data-plax-X:**   move left to right
+| easeInQuad     | **data-plax-Y:**   move top to bottom
+| easeOutQuad    | **data-plax-Z:**   move front to back
+| easeInOutQuad  | **data-rotate-X:** flip horizontally
+| easeInCubic    | **data-rotate-Y:** flip vertically
+| easeOutCubic   | **data-rotate-Z:** spin
+| easeInOutCubic | **data-TI:** amount of iterations for animation
+| easeInQuart    |
+| easeOutQuart   |
+| easeInOutQuart |
+| easeInQuint    |
+| easeOutQuint   |
+| easeInOutQuint |
+| easeInSine     |
+| easeOutSine    |
+| easeInOutSine  |
+| easeInExpo     |
+| easeOutExpo    |
+| easeInOutExpo  |
+| easeInCirc     |
+| easeOutCirc    |
+| easeInOutCirc  |
+
+
 ##Things to keep in mind:
 * The **data-attributes** can be any number except **zero** and the further the number is from zero the more the element will parallax.
 * The selected elements can not have a predefined translation. Otherwise it will jump to the newly defined position.
 * Negative numbers will make things do the opposite.(data-rotate-Z="-150" will rotate counter clockwise)
+
 
 ##Features:
 1. As many parallax elements as you like.
