@@ -82,12 +82,12 @@ Most important thing here is the **Display** Properties. Although SP does work w
 
 | Ease Options   | Data Options                                    |
 | -------------- | ----------------------------------------------- |
-| linearEase     | **data-plax-X:**   move left to right
-| easeInQuad     | **data-plax-Y:**   move top to bottom
-| easeOutQuad    | **data-plax-Z:**   move front to back
-| easeInOutQuad  | **data-rotate-X:** flip horizontally
-| easeInCubic    | **data-rotate-Y:** flip vertically
-| easeOutCubic   | **data-rotate-Z:** spin
+| linearEase     | **data-plax-x:**   move left to right
+| easeInQuad     | **data-plax-y:**   move top to bottom
+| easeOutQuad    | **data-plax-z:**   move front to back
+| easeInOutQuad  | **data-rotate-x:** flip horizontally
+| easeInCubic    | **data-rotate-y:** flip vertically
+| easeOutCubic   | **data-rotate-z:** spin
 | easeInOutCubic | **data-TI:** amount of iterations for animation
 | easeInQuart    |
 | easeOutQuart   |
