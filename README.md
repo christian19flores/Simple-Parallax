@@ -40,7 +40,7 @@ var simpleparallax = new SP({
   options: [
     {
       animation: true,
-      easeFunction: "linear"
+      easeFunction: "linearEase"
       //parallaxX: 50,
       //parallaxY: 50,
       //parallaxZ: 50,
