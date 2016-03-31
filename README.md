@@ -32,6 +32,29 @@ Parallax without the hassle
 ```
 Simpley add the **SP** class and **data-plax-y="#"** data entry to any element, then link the script before the ending body tag.
 
+#####Data-Attribute Options:
+<dl>
+  <dt>data-plax-x</dt>
+  <dd>move left to right.</dd>
+  
+  <dt>data-plax-y</dt> 
+  <dd>move top to bottom.</dd>
+  
+  <dt>data-plax-z</dt> 
+  <dd>move front to back.</dd>
+  
+  <dt>data-rotate-x</dt> 
+  <dd>flip horizontally.</dd>
+  
+  <dt>data-rotate-y</dt> 
+  <dd>flip vertically.</dd>
+  
+  <dt>data-rotate-z</dt> 
+  <dd>spin.</dd>
+  
+  <dt>data-TI</dt> 
+  <dd>amount of iterations for animation.</dd>
+</dl>
 ####Javascript - instantiation
 After adding the **simpleparallax.min.js** file to your project you must instatiate the script by doing the following
 
@@ -53,7 +76,7 @@ var simpleparallax = new SP({
   ]
 });
 ```
-
+Can add default values for all parallax's and rotations. Also change the class name that is grabbed from the HTML file.
 ####CSS:
 
 ```css
@@ -81,8 +104,9 @@ var simpleparallax = new SP({
 Most important thing here is the **Display** Properties. Although SP does work with other display styles but can become tricky in some situations.
 
 ##Things to keep in mind:
-* The **data-plax-y** can be any number except **zero** and the closer the number is to zero the more the element will parallax.
+* The **data-plax-y** can be any number except **zero** and the further the number is from zero the more the element will parallax.
 * The selected elements can not have a predefined translation. Otherwise it will jump to the newly defined position.
+* Negative numbers will make things do the opposite.(data-rotate-Z="-150" will rotate counter clockwise)
 
 ##Features:
 1. As many parallax elements as you like.
@@ -90,8 +114,11 @@ Most important thing here is the **Display** Properties. Although SP does work w
 3. Parallax on scroll.
 4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
 5. Animation for a smooth scroll effect. With ease functions.
+6. Animation can be toggled.
+7. Rotate along any axis.
+8. No Libraries needed!
 
 ##Example(JSFiddle):
 [Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
 
-[Parallax Version: 0.0.2](https://jsfiddle.net/Kree/pe5b54fs/)
+[Parallax Version: 0.2.0](http://jsfiddle.net/Kree/ju4d2c6L/3/)
