@@ -125,4 +125,4 @@ Most important thing here is the **Display** Properties. Although SP does work w
 ##Example(JSFiddle):
 [Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
 
-[Parallax Version: 0.2.0](http://jsfiddle.net/Kree/ju4d2c6L/3/)
+[Parallax Version: 0.2.0](http://jsfiddle.net/Kree/ju4d2c6L/4/)
