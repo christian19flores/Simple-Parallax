@@ -41,6 +41,14 @@ var simpleparallax = new SP({
     {
       animation: true,
       easeFunction: "linear"
+      //parallaxX: 50,
+      //parallaxY: 50,
+      //parallaxZ: 50,
+      //rotationX: 50,
+      //rotationY: 50,
+      //rotationZ: 50,
+      //iterationTotal: 8,
+      //className: "SP"
     }
   ]
 });
@@ -78,11 +86,10 @@ Most important thing here is the **Display** Properties. Although SP does work w
 
 ##Features:
 1. As many parallax elements as you like.
-2. Lightweight at only 2.63KB!
+2. Lightweight at only 4.73KB!
 3. Parallax on scroll.
 4. Elements can parallax up or down(depending on the data-plax-y value being positive or negative).
-5. Animation for a smooth scroll effect.
-6. Coming Soon!(Ease functions)
+5. Animation for a smooth scroll effect. With ease functions.
 
 ##Example(JSFiddle):
 [Parallax Version: 0.0.1](https://jsfiddle.net/Kree/v10yn98c/)
