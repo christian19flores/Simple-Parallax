@@ -101,7 +101,7 @@ Most important thing here is the **Display** Properties. Although SP does work w
   <dd>amount of iterations for animation</dd>
 </dl>
 ##Things to keep in mind:
-* The **data-plax-y** can be any number except **zero** and the further the number is from zero the more the element will parallax.
+* The **data-attributes** can be any number except **zero** and the further the number is from zero the more the element will parallax.
 * The selected elements can not have a predefined translation. Otherwise it will jump to the newly defined position.
 * Negative numbers will make things do the opposite.(data-rotate-Z="-150" will rotate counter clockwise)
 
