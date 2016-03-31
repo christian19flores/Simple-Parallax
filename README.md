@@ -32,29 +32,6 @@ Parallax without the hassle
 ```
 Simpley add the **SP** class and **data-plax-y="#"** data entry to any element, then link the script before the ending body tag.
 
-#####Data-Attribute Options:
-<dl>
-  <dt>data-plax-x</dt>
-  <dd>move left to right.</dd>
-  
-  <dt>data-plax-y</dt> 
-  <dd>move top to bottom.</dd>
-  
-  <dt>data-plax-z</dt> 
-  <dd>move front to back.</dd>
-  
-  <dt>data-rotate-x</dt> 
-  <dd>flip horizontally.</dd>
-  
-  <dt>data-rotate-y</dt> 
-  <dd>flip vertically.</dd>
-  
-  <dt>data-rotate-z</dt> 
-  <dd>spin.</dd>
-  
-  <dt>data-TI</dt> 
-  <dd>amount of iterations for animation.</dd>
-</dl>
 ####Javascript - instantiation
 After adding the **simpleparallax.min.js** file to your project you must instatiate the script by doing the following
 
@@ -102,7 +79,29 @@ Can add default values for all parallax's and rotations. Also change the class n
 ```
 
 Most important thing here is the **Display** Properties. Although SP does work with other display styles but can become tricky in some situations.
-
+##Data-Attribute Options:
+<dl>
+  <dt>data-plax-X:</dt>
+  <dd>move left to right.</dd>
+  
+  <dt>data-plax-Y:</dt> 
+  <dd>move top to bottom.</dd>
+  
+  <dt>data-plax-Z:</dt> 
+  <dd>move front to back.</dd>
+  
+  <dt>data-rotate-X:</dt> 
+  <dd>flip horizontally.</dd>
+  
+  <dt>data-rotate-Y:</dt> 
+  <dd>flip vertically.</dd>
+  
+  <dt>data-rotate-Z:</dt> 
+  <dd>spin.</dd>
+  
+  <dt>data-TI:</dt> 
+  <dd>amount of iterations for animation.</dd>
+</dl>
 ##Things to keep in mind:
 * The **data-plax-y** can be any number except **zero** and the further the number is from zero the more the element will parallax.
 * The selected elements can not have a predefined translation. Otherwise it will jump to the newly defined position.
